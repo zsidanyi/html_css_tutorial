@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Backgrounds & Borders</title>
+  <style>
+    #box1 {
+      background-color: blanchedalmond;
+      /* border-width: 3px;
+      border-color: red;
+      border-style: solid; */
+      /* same as */
+      border: 3px red solid;
+      border-radius: 10px; /* rounded corners */
+    }
+
+    #box2 {
+      background: #333;
+      color: white;
+      border-top: 3px blue solid;
+      border-top-left-radius: 10px; /* rounded left */
+      border-top-right-radius: 10px; /* rounded right */
+    }
+
+    #box3 {
+      /* background-image: url(./img/stars.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;*/ /* image takes the wholse space, its resized! */
+      background: url(./img/stars.jpg) no-repeat center center/cover;
+      color: white;
+      width: 600px;
+      height: 300px;
+    }
+
+    #box4 {
+      background: url(./img/leaf.png) no-repeat center center;
+      background-attachment: fixed;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="box1">
+    <h1>Box One</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+  </div>
+  <br>
+  <div id="box2">
+    <h1>Box Two</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+  </div>
+  <div id="box3">
+    <h1>Box Three</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+  </div>
+  <div id="box4">
+    <h1>Box Four</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, veniam.</p>
+  </div>
+</body>
+</html>
